@@ -9,18 +9,20 @@ and pairing with smart people at Hashrocket.
 
 For a steady stream of TILs, [sign up for my newsletter](https://tinyletter.com/jbranchaud).
 
-_909 TILs and counting..._
+_939 TILs and counting..._
 
 ---
 
 ### Categories
 
 * [Ack](#ack)
+* [Amplify](#amplify)
 * [Chrome](#chrome)
 * [Clojure](#clojure)
 * [CSS](#css)
 * [Devops](#devops)
 * [Elixir](#elixir)
+* [Gatsby](#gatsby)
 * [Git](#git)
 * [Go](#go)
 * [HTML](#html)
@@ -32,6 +34,7 @@ _909 TILs and counting..._
 * [MySQL](#mysql)
 * [Phoenix](#phoenix)
 * [PostgreSQL](#postgresql)
+* [Python](#python)
 * [Rails](#rails)
 * [React](#react)
 * [React Native](#react-native)
@@ -51,6 +54,10 @@ _909 TILs and counting..._
 - [ack --bar](ack/ack-bar.md)
 - [Case-Insensitive Search](ack/case-insensitive-search.md)
 - [List Available File Types](ack/list-available-file-types.md)
+
+### Amplify
+
+- [Sign Up User With Email And Password](amplify/sign-up-user-with-email-and-password.md)
 
 ### Chrome
 
@@ -186,6 +193,10 @@ _909 TILs and counting..._
 - [When Things Don't Match The With Statements](elixir/when-things-dont-match-the-with-statements.md)
 - [Word Lists For Atoms](elixir/word-lists-for-atoms.md)
 
+### Gatsby
+
+- [Add JavaScript To Body Of The Document](gatsby/add-javascript-to-body-of-the-document.md)
+
 ### Git
 
 - [Accessing a Lost Commit](git/accessing-a-lost-commit.md)
@@ -213,6 +224,7 @@ _909 TILs and counting..._
 - [Grep For A Pattern On Another Branch](git/grep-for-a-pattern-on-another-branch.md)
 - [Grep Over Commit Messages](git/grep-over-commit-messages.md)
 - [Ignore Changes To A Tracked File](git/ignore-changes-to-a-tracked-file.md)
+- [Include A Message With Your Stashed Changes](git/include-a-message-with-your-stashed-changes.md)
 - [Include Some Stats In Your Git Log](git/include-some-stats-in-your-git-log.md)
 - [Intent To Add](git/intent-to-add.md)
 - [Interactively Unstage Changes](git/interactively-unstage-changes.md)
@@ -290,6 +302,7 @@ _909 TILs and counting..._
 - [Accessing Arguments To A Function](javascript/accessing-arguments-to-a-function.md)
 - [Basic Date Formatting Without A Library](javascript/basic-date-formatting-without-a-library.md)
 - [Character Codes from Keyboard Listeners](javascript/character-codes-from-keyboard-listeners.md)
+- [Check Classes On A DOM Element](javascript/check-classes-on-a-dom-element.md)
 - [Check If Something Is An Array](javascript/check-if-something-is-an-array.md)
 - [Check The Password Confirmation With Yup](javascript/check-the-password-confirmation-with-yup.md)
 - [Computed Property Names In ES6](javascript/computed-property-names-in-es6.md)
@@ -342,6 +355,7 @@ _909 TILs and counting..._
 - [String Interpolation With Template Literals](javascript/string-interpolation-with-template-literals.md)
 - [Support Nested Matching In Custom Jest Matchers](javascript/support-nested-matching-in-custom-jest-matchers.md)
 - [Test Coverage Stats With Jest](javascript/test-coverage-stats-with-jest.md)
+- [Test Timing-Based Code With Jest Fake Timers](javascript/test-timing-based-code-with-jest-fake-timers.md)
 - [The Comma Operator](javascript/the-comma-operator.md)
 - [Throttling A Function Call](javascript/throttling-a-function-call.md)
 - [Timing Processes](javascript/timing-processes.md)
@@ -386,6 +400,9 @@ _909 TILs and counting..._
 ### MongoDB
 
 - [Determine The Database Version](mongodb/determine-the-database-version.md)
+- [Dump A Remote Database](mongodb/dump-a-remote-database.md)
+- [Get Size Stats For A Collection](mongodb/get-size-stats-for-a-collection.md)
+- [List Size Stats For All Collections](mongodb/list-size-stats-for-all-collections.md)
 
 ### MySQL
 
@@ -434,6 +451,7 @@ _909 TILs and counting..._
 - [Count The Number Of Trues In An Aggregate Query](postgres/count-the-number-of-trues-in-an-aggregate-query.md)
 - [Create A Composite Primary Key](postgres/create-a-composite-primary-key.md)
 - [Create An Index Without Locking The Table](postgres/create-an-index-without-locking-the-table.md)
+- [Create Database Uses Template1](postgres/create-database-uses-template1.md)
 - [Create hstore From Two Arrays](postgres/create-hstore-from-two-arrays.md)
 - [Create Table Adds A Data Type](postgres/create-table-adds-a-data-type.md)
 - [Creating Conditional Constraints](postgres/creating-conditional-constraints.md)
@@ -442,9 +460,11 @@ _909 TILs and counting..._
 - [Day Of Week For A Date](postgres/day-of-week-for-a-date.md)
 - [Default Schema](postgres/default-schema.md)
 - [Defining Arrays](postgres/defining-arrays.md)
+- [Determine Types Of JSONB Records](postgres/determine-types-of-jsonb-records.md)
 - [Determining The Age Of Things](postgres/determining-the-age-of-things.md)
 - [Difference Between Explain And Explain Analyze](postgres/difference-between-explain-and-explain-analyze.md)
 - [Dump And Restore A Database](postgres/dump-and-restore-a-database.md)
+- [Duplicate A Local Database](postgres/duplicate-a-local-database.md)
 - [Edit Existing Functions](postgres/edit-existing-functions.md)
 - [Escaping A Quote In A String](postgres/escaping-a-quote-in-a-string.md)
 - [Escaping String Literals With Dollar Quoting](postgres/escaping-string-literals-with-dollar-quoting.md)
@@ -483,6 +503,7 @@ _909 TILs and counting..._
 - [Pretty Printing JSONB Rows](postgres/pretty-printing-jsonb-rows.md)
 - [Prevent A Query From Running Too Long](postgres/prevent-a-query-from-running-too-long.md)
 - [Print The Query Buffer In psql](postgres/print-the-query-buffer-in-psql.md)
+- [Remove Not Null Constraint From A Column](postgres/remove-not-null-constraint-from-a-column.md)
 - [Renaming A Sequence](postgres/renaming-a-sequence.md)
 - [Renaming A Table](postgres/renaming-a-table.md)
 - [Restart A Sequence](postgres/restart-a-sequence.md)
@@ -492,6 +513,7 @@ _909 TILs and counting..._
 - [Set Inclusion With hstore](postgres/set-inclusion-with-hstore.md)
 - [Set A Seed For The Random Number Generator](postgres/set-a-seed-for-the-random-number-generator.md)
 - [Sets With The Values Command](postgres/sets-with-the-values-command.md)
+- [Shorthand Absolute Value Operator](postgres/shorthand-absolute-value-operator.md)
 - [Show All Versions Of An Operator](postgres/show-all-versions-of-an-operator.md)
 - [Sleeping](postgres/sleeping.md)
 - [Special Math Operators](postgres/special-math-operators.md)
@@ -516,6 +538,12 @@ _909 TILs and counting..._
 - [Word Count for a Column](postgres/word-count-for-a-column.md)
 - [Write A Query Result To File](postgres/write-a-query-result-to-file.md)
 
+### Python
+
+- [Access Instance Variables](python/access-instance-variables.md)
+- [Create A Dummy DataFrame In Pandas](python/create-a-dummy-dataframe-in-pandas.md)
+- [Test A Function With Pytest](python/test-a-function-with-pytest.md)
+
 ### Rails
 
 - [Add A Check Constraint To A Table](rails/add-a-check-constraint-to-a-table.md)
@@ -525,6 +553,7 @@ _909 TILs and counting..._
 - [Access Secrets In A Rails 5.2 App](rails/access-secrets-in-a-rails-5-2-app.md)
 - [ActiveRecord Query For This Or That](rails/active-record-query-for-this-or-that.md)
 - [Advance The Date](rails/advance-the-date.md)
+- [Allow List Params Anywhere With Strong Params](rails/allow-list-params-anywhere-with-strong-params.md)
 - [All or Nothing Database Transactions](rails/all-or-nothing-database-transactions.md)
 - [Assert Two Arrays Have The Same Items With RSpec](rails/assert-two-arrays-have-the-same-items-with-rspec.md)
 - [Attach A File With Capybara](rails/attach-a-file-with-capybara.md)
@@ -535,6 +564,7 @@ _909 TILs and counting..._
 - [Capybara Page Status Code](rails/capybara-page-status-code.md)
 - [Cast Common Boolean-Like Values To Booleans](rails/cast-common-boolean-like-values-to-booleans.md)
 - [Change The Nullability Of A Column](rails/change-the-nullability-of-a-column.md)
+- [Check If ActiveRecord Update Fails](rails/check-if-activerecord-update-fails.md)
 - [Check Specific Attributes On ActiveRecord Array](rails/check-specific-attributes-on-activerecord-array.md)
 - [Code Statistics For An Application](rails/code-statistics-for-an-application.md)
 - [Comparing DateTimes Down To Second Precision](rails/comparing-datetimes-down-to-second-precision.md)
@@ -547,8 +577,10 @@ _909 TILs and counting..._
 - [Demodulize A Class Name](rails/demodulize-a-class-name.md)
 - [Disambiguate Where In A Joined Relation](rails/disambiguate-where-in-a-joined-relation.md)
 - [Ensure Migrations Use The Latest Schema](rails/ensure-migrations-use-the-latest-schema.md)
+- [Force All Users To Sign Out](rails/force-all-users-to-sign-out.md)
 - [Generating And Executing SQL](rails/generating-and-executing-sql.md)
 - [Get An Array Of Values From The Database](rails/get-an-array-of-values-from-the-database.md)
+- [Get An Empty ActiveRecord Relation](rails/get-an-empty-activerecord-relation.md)
 - [Get The Column Names For A Model](rails/get-the-column-names-for-a-model.md)
 - [Hash Slicing](rails/hash-slicing.md)
 - [Ignore Poltergeist JavaScript Errors](rails/ignore-poltergeist-javascript-errors.md)
@@ -565,6 +597,7 @@ _909 TILs and counting..._
 - [Perform SQL Explain With ActiveRecord](rails/perform-sql-explain-with-activerecord.md)
 - [Polymorphic Path Helpers](rails/polymorphic-path-helpers.md)
 - [Pretend Generations](rails/pretend-generations.md)
+- [Query A Single Value From The Database](rails/query-a-single-value-from-the-database.md)
 - [Read-Only Models](rails/read-only-models.md)
 - [Remove The Default Value On A Column](rails/remove-the-default-value-on-a-column.md)
 - [Rescue From](rails/rescue-from.md)
@@ -579,6 +612,7 @@ _909 TILs and counting..._
 - [Show Pending Migrations](rails/show-pending-migrations.md)
 - [Show Rails Models With Pry](rails/show-rails-models-with-pry.md)
 - [Show Rails Routes With Pry](rails/show-rails-routes-with-pry.md)
+- [Temporarily Disable strong_params](rails/temporarily-disable-strong-params.md)
 - [Test If An Instance Variable Was Assigned](rails/test-if-an-instance-variable-was-assigned.md)
 - [Truncate Almost All Tables](rails/truncate-almost-all-tables.md)
 - [Update Column Versus Update Attribute](rails/update-column-versus-update-attribute.md)
@@ -599,6 +633,7 @@ _909 TILs and counting..._
 - [Building A React App In The Browser](react/building-a-react-app-in-the-browser.md)
 - [Check The Type Of A Child Component](react/check-the-type-of-a-child-component.md)
 - [Conditionally Including Event Handler Functions](react/conditionally-including-event-handler-functions.md)
+- [Create A Snowpack-Bundled React App](react/create-a-snowpack-bundled-react-app.md)
 - [Create Dynamically Named Custom React Components](react/create-dynamically-named-custom-react-components.md)
 - [create-react-app Comes With Lodash](react/create-react-app-comes-with-lodash.md)
 - [create-react-app Has A Default Test Setup File](react/create-react-app-has-a-default-test-setup-file.md)
@@ -606,10 +641,12 @@ _909 TILs and counting..._
 - [Debug Jest Tests In create-react-app](react/debug-jest-tests-in-create-react-app.md)
 - [Defining State In A Simple Class Component](react/defining-state-in-a-simple-class-component.md)
 - [Destructure Variables As Props To A Component](react/destructure-variables-as-props-to-a-component.md)
+- [Details Tags Are A Controllable Component](react/details-tags-are-a-controllable-component.md)
 - [Dispatch Anywhere With Redux](react/dispatch-anywhere-with-redux.md)
 - [Dynamically Add Props To A Child Component](react/dynamically-add-props-to-a-child-component.md)
 - [Dynamically Create HTML Elements](react/dynamically-create-html-elements.md)
 - [Enforce Specific Values With PropTypes](react/enforce-specific-values-with-proptypes.md)
+- [Focus An Input With useRef Hook](react/focus-an-input-with-useref-hook.md)
 - [Force A Component To Only Have One Child](react/force-a-component-to-only-have-one-child.md)
 - [Forcing A Child Remount With The Key Prop](react/forcing-a-child-remount-with-the-key-prop.md)
 - [Formik Connected Components](react/formik-connected-components.md)
@@ -729,6 +766,7 @@ _909 TILs and counting..._
 - [Or Operator Precedence](ruby/or-operator-precedence.md)
 - [Override The Initial Sequence Value](ruby/override-the-initial-sequence-value.md)
 - [Parallel Bundle Install](ruby/parallel-bundle-install.md)
+- [Parsing A CSV With Quotes In The Data](ruby/parsing-a-csv-with-quotes-in-the-data.md)
 - [Pass A Block To Count](ruby/pass-a-block-to-count.md)
 - [Passing Arbitrary Methods As Blocks](ruby/passing-arbitrary-methods-as-blocks.md)
 - [Passing Arguments To A Rake Task](ruby/passing-arguments-to-a-rake-task.md)
@@ -828,6 +866,7 @@ _909 TILs and counting..._
 - [Grep For Files With Multiple Matches](unix/grep-for-files-with-multiple-matches.md)
 - [Grep For Multiple Patterns](unix/grep-for-multiple-patterns.md)
 - [Hexdump A Compiled File](unix/hexdump-a-compiled-file.md)
+- [Interactively Browse Available Node Versions](unix/interactively-browse-availabile-node-versions.md)
 - [Jump To The Ends Of Your Shell History](unix/jump-to-the-ends-of-your-shell-history.md)
 - [Kill Everything Running On A Certain Port](unix/kill-everything-running-on-a-certain-port.md)
 - [Killing A Frozen SSH Session](unix/killing-a-frozen-ssh-session.md)
@@ -864,6 +903,7 @@ _909 TILs and counting..._
 - [Switch Versions of a Brew Formula](unix/switch-versions-of-a-brew-formula.md)
 - [Touch Access And Modify Times Individually](unix/touch-access-and-modify-times-individually.md)
 - [Undo Some Command Line Editing](unix/undo-some-command-line-editing.md)
+- [Use Regex Pattern Matching With Grep](unix/use-regex-pattern-matching-with-grep.md)
 - [View A Web Page In The Terminal](unix/view-a-web-page-in-the-terminal.md)
 - [Watch The Difference](unix/watch-the-difference.md)
 - [Watch This Run Repeatedly](unix/watch-this-run-repeatedly.md)
@@ -1030,11 +1070,13 @@ _909 TILs and counting..._
 
 ## Workflow
 
+- [Change Window Name In iTerm](workflow/change-window-name-in-iterm.md)
 - [Convert An ePub Document To PDF On Mac](workflow/convert-an-epub-document-to-pdf-on-mac.md)
 - [Enable Dev Tools For Safari](workflow/enable-dev-tools-for-safari.md)
 - [Import A Github Project Into CodeSandbox](workflow/import-a-github-project-into-codesandbox.md)
 - [Interactively Kill A Process With fkill](workflow/interactively-kill-a-process-with-fkill.md)
 - [Open Slack's Keyboard Shortcuts Reference Panel](workflow/open-slacks-keyboard-shortcuts-reference-panel.md)
+- [Prune The Excess From node_modules](workflow/prune-the-excess-from-node-modules.md)
 - [Rotate An Image To Be Oriented Upright](workflow/rotate-an-image-to-be-oriented-upright.md)
 - [Set Recurring Reminders In Slack](workflow/set-recurring-reminders-in-slack.md)
 - [Toggle Between Stories In Storybook](workflow/toggle-between-stories-in-storybook.md)
